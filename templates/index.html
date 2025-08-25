@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Women Safety Analytics</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Women Safety Real-time Analytics</h1>
+    <div class="video-container">
+        <img src="{{ url_for('video_feed') }}" id="video-stream">
+    </div>
+    <div class="info-panel">
+        <p>Live analytics running...</p>
+        <p>Alerts will show here in future.</p>
+    </div>
+</body>
+</html>
